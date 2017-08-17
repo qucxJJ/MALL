@@ -1,0 +1,33 @@
+/*
+* @Author: yun
+* @Date:   2017-07-17 20:46:55
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-17 20:50:00
+*/
+.crumb{
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-top: 2px solid #c60023;
+}
+.form-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.form-line .label{
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}
+.form-line .input{
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    font-size: 14px;
+}

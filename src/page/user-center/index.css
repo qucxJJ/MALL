@@ -1,0 +1,19 @@
+/*
+* @Author: yun
+* @Date:   2017-07-17 17:45:26
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-18 11:55:08
+*/
+/*面包屑导航*/
+
+.form-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.form-line .label{
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}

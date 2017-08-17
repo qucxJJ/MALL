@@ -1,0 +1,29 @@
+/*
+* @Author: yun
+* @Date:   2017-07-16 12:17:36
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-16 14:03:42
+*/
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+/*用户部分*/
+.nav .user{
+    float: left;
+}
+.nav .user.login{     /*两个类名之间没有空格代表两个类名都有的元素*/
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+/*导航链接部分*/
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}

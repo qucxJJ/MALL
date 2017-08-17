@@ -1,0 +1,111 @@
+/*
+* @Author: yun
+* @Date:   2017-07-16 10:38:37
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-18 11:54:14
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+            margin:0;padding:0
+}
+body{
+    background: #f6f6f6;
+    font: 12px/1.5 tahoma,arial,Microsoft YaHei,sans-serif;
+
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+/*定宽布局*/
+.w{
+    width: 1080px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;   /*清除浮动，当子元素都浮动时，父元素也可以被撑起来*/
+}
+/*panel 通用放东西的容器*/
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
+/*全局通用样式*/
+/*隐藏类*/
+.hide{
+    display: none;
+}
+/*链接样式*/
+.link{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    color: #e80012;
+}
+.link-text{
+    color: #999;
+    text-decoration: none;
+}
+/*btn*/
+.btn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+/*loading*/
+.loading{
+    margin: 10px auto;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: url(../../image/icon/loading.gif);
+    border: 1px solid #ddd;
+    border-radius: 32px;
+    opacity: 0.6;
+}
+.crumb{
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-top: 2px solid #c60023;
+}

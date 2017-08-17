@@ -1,0 +1,17 @@
+/*
+* @Author: yun
+* @Date:   2017-07-16 12:06:03
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-16 12:14:37
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+}

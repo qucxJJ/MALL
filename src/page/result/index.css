@@ -1,0 +1,26 @@
+/*
+* @Author: yun
+* @Date:   2017-07-16 18:32:45
+* @Last Modified by:   yun
+* @Last Modified time: 2017-07-16 19:17:04
+*/
+.page-wrap{
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+.result-con{
+    display: none;
+}
+.result-con .result-title{
+    color: #555;
+}
+.result-con .result-content{
+    margin-top: 20px;
+}
+.result-con .result-content .link{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
